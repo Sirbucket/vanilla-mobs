@@ -1,4 +1,4 @@
-package com.aralthus.vanillamobs;
+package net.aralthus.vanillamobs;
 
 import net.fabricmc.api.ClientModInitializer;
 
