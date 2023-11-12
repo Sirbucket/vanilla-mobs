@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "vanillamobs",
 	"version": "${version}",
-	"name": "VanillaMobs",
+	"name": "Vanilla Mobs",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Aralthus"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"net.aralthus.vanillamobs.VanillaMobs"
+		],
+		"client": [
+			"net.aralthus.vanillamobs.VanillaMobsClient"
 		],
 		"fabric-datagen": [
 			"net.aralthus.vanillamobs.VanillaMobsDataGenerator"
